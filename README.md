@@ -9,3 +9,11 @@ GitHub Actions is a powerful workflow automation and CI/CD (Continuous Integrati
 - **Flexibility:** With GitHub Actions, you have the flexibility to define custom workflows that suit your project's specific needs.
 - **Integration:** It integrates seamlessly with other GitHub features, such as issue tracking, pull requests, and deployments.
 - **Community:** GitHub Actions has a vast community that contributes to a growing collection of pre-built actions, making it easier to add functionality to your workflows.
+
+### Contributing
+
+Contributions to this project are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request. For more information, refer to the `CONTRIBUTING.md` file.
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
