@@ -1,4 +1,3 @@
-import pytest
 import json
 from API_excercise_01 import app
 

@@ -60,7 +60,14 @@ if __name__ == '__main__':
     # Crear la tabla de usuarios en la base de datos (solo para propósitos de ejemplo)
     conn = sqlite3.connect('database.db')
     cursor = conn.cursor()
-    cursor.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT)')
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS users (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        email TEXT
+        )
+    ''')
+
     cursor.close()
     conn.close()
 
